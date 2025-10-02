@@ -1,0 +1,60 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 54
+    values:
+      - ""
+      - Baseball Cap Controller.lspkg
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Materials
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Materials/Occluder.mat
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Materials/cap_logo.mat
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Materials/cap_main_primary.mat
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Materials/cap_main_secondary.mat
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Materials/cap_shadow.mat
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Meshes
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Meshes/cap_logo.mesh
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Meshes/cap_main.mesh
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Meshes/cap_occluder.mesh
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Meshes/cap_shadow.mesh
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Shaders
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Shaders/Occluder.ss_graph
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Shaders/cap_logo.ss_graph
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Shaders/cap_main_primary.ss_graph
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Shaders/cap_main_secondary.ss_graph
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Shaders/cap_shadow.ss_graph
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/cap_diff.jpg
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/cap_mask.jpg
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/cap_norm.jpg
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/cap_shadow.jpg
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/cap_tech.jpg
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/logo_opacity_mask.png
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Models/Baseball Cap/Textures/yay.png
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Scripts
+      - Baseball Cap Controller.lspkg/BaseBall Cap Controller Resources/Scripts/BaseballCapController.js
+      - Baseball Cap Controller.lspkg/Baseball_Cap_Controller__PUT_UNDER_HEAD_BINDING.prefab
+      - Baseball Cap Controller.lspkg/package.native
+      - Behavior.lsc
+      - Bitmoji 3D.lsc
+      - Bitmoji Stickers and Selfies.lsc
+      - "ChatGPT Image Oct 2, 2025, 11_52_07 AM.png"
+      - Easy Lens
+      - Easy Lens/Generated Assets
+      - Easy Lens/Generated Assets/Dreamy_Pink_Hearts.lspkg
+      - Easy Lens/Lens Components
+      - Easy Lens/Lens Components/Particles Handmade_5.11.0.lsc
+      - Easy Lens/LensController.js
+      - Friends Carousel.lsc
+      - FriendsComponent.lsc
+      - FriendsInfo.lsc
+      - Head.mesh
+      - Image.mat
+      - Image.png
+      - LEns Logic.js
+      - Occluder.mat
+      - Tappable Question Widget.lsc
+      - UI Button.lsc
+      - flat.ss_graph
+      - occluder.ss_graph
+  options: 4
