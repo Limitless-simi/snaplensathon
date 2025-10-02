@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/0d7a7743-4e4d-4c22-a9f7-389ba99beee6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9aa2e564-94df-4e48-b69a-670e99291c5f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9aa2e564-94df-4e48-b69a-670e99291c5f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e9886ba3-310e-4d7e-a442-8dd092008cab
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e9886ba3-310e-4d7e-a442-8dd092008cab>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 480f5a7b-fe7e-4e93-bbff-75777a4b4cee
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    friendsCarousel: false
+    friendsComponent: false
+    uiButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - friendsCarousel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      friendsComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      uiButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

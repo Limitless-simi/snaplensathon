@@ -1,0 +1,304 @@
+- !<AssetImportMetadata/a8448d42-e645-40f1-ccb2-1f7b63ace9f5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 4a0a5bc8-af6e-4f3b-a117-b829b737f083
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 4a0a5bc8-af6e-4f3b-a117-b829b737f083
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7B6HaGg9cJ2bkB4jNp8VNL
+  AssetDataMap:
+    ObjectPrefab: !<own> 766c7910-ba2b-43be-98b8-0878cbd36d05
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/10af45af-61ea-42a9-a361-0facc712b3a3>
+  PrefabRemaps:
+    []
+  Name: "Baseball Cap Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.060402, y: 7.860024, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 23d43f77-a9ae-4591-bb77-8dc1d67c1f53
+- !<SceneObject/214a8d18-4846-43e6-9874-834cdfc8bb65>
+  PrefabRemaps:
+    []
+  Name: cap_logo
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 24e43e23-cefa-4934-b4c8-06fdf707a68e
+- !<ScriptComponent/23d43f77-a9ae-4591-bb77-8dc1d67c1f53>
+  PrefabRemaps:
+    []
+  Name: BaseballCapController
+  Enabled: true
+  ScriptAsset: !<reference> 46c8ddc0-7ac7-4f15-b7b4-bc2e93b8bd3c
+  ScriptInputsDefault:
+    logoBlendMode: true
+    logoSize: true
+    logoOffsetX: true
+    logoOffsetY: true
+    brimCurve: true
+    hatSwivel: true
+    hatTilt: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      logoTexture: !<reference.Texture> 3f5acd28-2b96-4816-a555-f187d2e69491
+      logoBlendMode: 0
+      logoSize: 0.500000
+      logoOffsetX: !<float> 0.000000
+      logoOffsetY: !<float> 0.000000
+      primaryCapColor: !<Vec4> {x: 0.228153, y: 0.138460, z: 0.524361, w: 1.000000}
+      secondaryCapColor: !<Vec4> {x: 0.984283, y: 0.000000, z: 0.584024, w: 1.000000}
+      brimCurve: 0.500000
+      hatSwivel: !<float> 0.000000
+      hatTilt: !<float> 0.000000
+      advanced: true
+      logoMaterial: !<reference.Material> 456c5a9a-e725-4e93-a119-fde77f0d1421
+      capMaterialPrimary: !<reference.Material> 635f1fec-e76e-466b-940d-b605df594c90
+      capMaterialSecondary: !<reference.Material> 686df7b3-c962-4bf5-9c36-800c03ef8581
+      RenderMeshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 7d88a18d-6c3d-462a-8ccd-bd6ff45f190d
+        - !<reference> fc6ea710-acef-40a2-9409-e786f63f90ef
+        - !<reference> 24e43e23-cefa-4934-b4c8-06fdf707a68e
+      blendshapeNames: !<string[]>
+        - cap_shadow2
+        - cap_main_blendshape
+        - cap_logo3
+      hatTransform: !<reference.SceneObject> 58c9ed63-419b-4a55-9705-12a693bcd21c
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/24e43e23-cefa-4934-b4c8-06fdf707a68e>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 456c5a9a-e725-4e93-a119-fde77f0d1421
+  Mesh: !<reference> b623c7e8-4afa-459a-84bb-26f11837ece5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    cap_logo3: 0.000000
+- !<RenderMeshVisual/48e4f2ee-54c7-4c4d-99bd-1f051ae756da>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e78b56b2-bcc8-4b43-bb2b-908c19c26a68
+  Mesh: !<reference> 4e3a0a00-3bad-4f6e-aa2a-577c0c3cb40c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/58c9ed63-419b-4a55-9705-12a693bcd21c>
+  PrefabRemaps:
+    []
+  Name: HatTransform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d977766f-486a-4573-9409-2ba728d188fd
+  Components:
+    []
+- !<SceneObject/5a9e9d03-9f30-4ca8-a874-5420ebad76e2>
+  PrefabRemaps:
+    []
+  Name: cap_shadow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7d88a18d-6c3d-462a-8ccd-bd6ff45f190d
+- !<SceneObject/6c0c0ca9-f435-46ea-8894-b945f86d1182>
+  PrefabRemaps:
+    []
+  Name: cap_main
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fc6ea710-acef-40a2-9409-e786f63f90ef
+- !<SceneObject/7546b61e-cbd3-4e3a-b91d-4696cf021af0>
+  PrefabRemaps:
+    []
+  Name: cap_occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48e4f2ee-54c7-4c4d-99bd-1f051ae756da
+- !<ObjectPrefabAssetData/766c7910-ba2b-43be-98b8-0878cbd36d05>
+  SourceRemaps:
+    - 142ad186-7f9b-4d5e-ae19-608c802f5762: 5a9e9d03-9f30-4ca8-a874-5420ebad76e2
+    - 1b630077-ad21-4a6a-85a6-b3d6a449f301: 24e43e23-cefa-4934-b4c8-06fdf707a68e
+    - 1d8cf5dd-c9f3-4931-8b74-eaa7745b5448: 7546b61e-cbd3-4e3a-b91d-4696cf021af0
+    - 2504b4ee-4cd7-4217-bab3-203df25e2c90: fc6ea710-acef-40a2-9409-e786f63f90ef
+    - 264f2eb0-7d4a-44ad-9488-d25d6cbf0c78: f2b47d52-f49b-4c09-8849-8700535ebba4
+    - 27eaf269-d64d-4ac3-86ad-96d6d14d4b62: 7d88a18d-6c3d-462a-8ccd-bd6ff45f190d
+    - 2e879720-9a35-4f21-8f44-b64da20e3ee8: 214a8d18-4846-43e6-9874-834cdfc8bb65
+    - 4a0a5bc8-af6e-4f3b-a117-b829b737f083: e09fb30e-15c3-4d89-9c1b-3932c4a751df
+    - 63876aa7-de96-45d0-b753-286af8fa0ebe: 10af45af-61ea-42a9-a361-0facc712b3a3
+    - 86145c6e-6776-4851-bc15-7952ec2b120e: 48e4f2ee-54c7-4c4d-99bd-1f051ae756da
+    - a171342f-e2d2-4f9b-bbb9-8e8016ae04cb: 58c9ed63-419b-4a55-9705-12a693bcd21c
+    - b7339af7-db97-4139-8aec-fc72c8243817: da54cdfa-7bc4-4ac8-aa11-9444d5459bcb
+    - e0919ff9-9332-4b34-95d0-df1b1c7eed2d: d977766f-486a-4573-9409-2ba728d188fd
+    - e969092c-85bf-42c3-be01-b76af7a27c1f: 6c0c0ca9-f435-46ea-8894-b945f86d1182
+    - f78c7c14-43ad-4965-8893-f6d5f7a3a206: 23d43f77-a9ae-4591-bb77-8dc1d67c1f53
+  SourceState: !<own> e09fb30e-15c3-4d89-9c1b-3932c4a751df
+- !<RenderMeshVisual/7d88a18d-6c3d-462a-8ccd-bd6ff45f190d>
+  PrefabRemaps:
+    []
+  Name: component_19
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 76fa1d13-3744-471d-8b21-ecfcc01a45e4
+  Mesh: !<reference> efd5e5a9-e738-4d1b-ab61-b119362d3077
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    cap_shadow2: 0.000000
+- !<SceneObject/d977766f-486a-4573-9409-2ba728d188fd>
+  PrefabRemaps:
+    []
+  Name: baseball_cap
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 8.250000, z: 9.400000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> da54cdfa-7bc4-4ac8-aa11-9444d5459bcb
+  Components:
+    []
+- !<SceneObject/da54cdfa-7bc4-4ac8-aa11-9444d5459bcb>
+  PrefabRemaps:
+    []
+  Name: cap
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7546b61e-cbd3-4e3a-b91d-4696cf021af0
+    - !<own> 6c0c0ca9-f435-46ea-8894-b945f86d1182
+    - !<own> 214a8d18-4846-43e6-9874-834cdfc8bb65
+    - !<own> 5a9e9d03-9f30-4ca8-a874-5420ebad76e2
+  Components:
+    []
+- !<ObjectPrefab/e09fb30e-15c3-4d89-9c1b-3932c4a751df>
+  PackagePath: Baseball_Cap_Controller__PUT_UNDER_HEAD_BINDING
+  objects:
+    - !<own> f2b47d52-f49b-4c09-8849-8700535ebba4
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/f2b47d52-f49b-4c09-8849-8700535ebba4>
+  PrefabRemaps:
+    []
+  Name: Baseball_Cap_Controller__PUT_UNDER_HEAD_BINDING
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 58c9ed63-419b-4a55-9705-12a693bcd21c
+    - !<own> 10af45af-61ea-42a9-a361-0facc712b3a3
+  Components:
+    []
+- !<RenderMeshVisual/fc6ea710-acef-40a2-9409-e786f63f90ef>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 635f1fec-e76e-466b-940d-b605df594c90
+    - !<reference> 686df7b3-c962-4bf5-9c36-800c03ef8581
+  Mesh: !<reference> 41a9d41a-d6d4-43e7-8758-d0b7b31d49df
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    cap_main_blendshape: 0.000000

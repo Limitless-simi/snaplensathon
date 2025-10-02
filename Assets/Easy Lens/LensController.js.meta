@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/07b5c077-5089-4a41-891a-65e8971dfc3f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 86a074e7-3e68-41e5-8b33-3506daa58e08
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 86a074e7-3e68-41e5-8b33-3506daa58e08
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5a70dfdc-f681-4ec5-8e85-588a2f5d839a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5a70dfdc-f681-4ec5-8e85-588a2f5d839a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b153db9c-0ee8-4144-ae93-050f1877cf23
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    friendshipOverlay: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - friendshipOverlay: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

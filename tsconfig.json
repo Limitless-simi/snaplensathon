@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2019"
+    ],
+    "module": "commonjs",
+    "noEmit": true,
+    "paths": {
+      "*": [
+        "./Assets/*",
+        "./Packages/*",
+        "./Cache/TypeScript/Src/Packages/*"
+      ],
+      "../Packages/Behavior.lsc/*": [
+        "./Assets/../Packages/Behavior.lsc/*",
+        "./Cache/TypeScript/Src/Assets/../Packages/Behavior.lsc/*"
+      ],
+      "Easy Lens/Generated Assets/Dreamy_Pink_Hearts.lspkg/*": [
+        "./Assets/Easy Lens/Generated Assets/Dreamy_Pink_Hearts.lspkg/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Generated Assets/Dreamy_Pink_Hearts.lspkg/*"
+      ],
+      "Easy Lens/Lens Components/Particles Handmade_5.11.0.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/Particles Handmade_5.11.0.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Particles Handmade_5.11.0.lsc/*"
+      ]
+    },
+    "skipDefaultLibCheck": true,
+    "target": "es2019",
+    "types": []
+  },
+  "exclude": [
+    "node_modules/typescript/lib/lib.dom.d.ts"
+  ],
+  "include": [
+    "./Cache/TypeScript/lib/LensifyTS/Declarations/**/*.d.ts",
+    "./Assets/**/*.ts",
+    "./Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Generated Assets/Dreamy_Pink_Hearts.lspkg/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Particles Handmade_5.11.0.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/../Packages/Behavior.lsc/**/*.ts"
+  ]
+}

@@ -1,0 +1,76 @@
+- !<AssetImportMetadata/2299d81e-db50-23f8-c601-db769b948574>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 46c8ddc0-7ac7-4f15-b7b4-bc2e93b8bd3c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 46c8ddc0-7ac7-4f15-b7b4-bc2e93b8bd3c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 7B6HaGg9cJ2bkB4jNp8VNL
+  AssetDataMap:
+    JavaScriptAsset: !<own> e1399e5a-6575-4d33-8e4f-613d7878550a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e1399e5a-6575-4d33-8e4f-613d7878550a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: caf4b8ae-c903-6630-65ba-56b08fcc7c3e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    RenderMeshVisuals: false
+    advanced: false
+    blendshapeNames: false
+    brimCurve: false
+    capMaterialPrimary: false
+    capMaterialSecondary: false
+    hatSwivel: false
+    hatTilt: false
+    hatTransform: false
+    logoBlendMode: false
+    logoMaterial: false
+    logoOffsetX: false
+    logoOffsetY: false
+    logoSize: false
+    logoTexture: false
+    primaryCapColor: false
+    secondaryCapColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - logoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      logoBlendMode: 0
+      logoSize: 0.500000
+      logoOffsetX: !<float> 0.000000
+      logoOffsetY: !<float> 0.000000
+      primaryCapColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      secondaryCapColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      brimCurve: 0.500000
+      hatSwivel: !<float> 0.000000
+      hatTilt: !<float> 0.000000
+      advanced: false
+      logoMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      capMaterialPrimary: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      capMaterialSecondary: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      RenderMeshVisuals: !<reference.RenderMeshVisual[]>
+        []
+      blendshapeNames: !<string[]>
+        []
+      hatTransform: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

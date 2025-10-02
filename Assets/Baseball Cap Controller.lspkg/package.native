@@ -1,0 +1,40 @@
+- !<NativePackageDescriptor/8279cb9e-2b66-4452-8677-1e7191913fc9>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 14
+    patch: 0
+    build: 25091606
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    The Baseball Cap Package lets users create a customizable baseball cap. The package comes with a configurable 3D baseball cap which you can recolor and decorate with any image you like.
+    
+    https://developers.snap.com/lens-studio/features/ar-tracking/face/face-templates/baseball-cap
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 75
+  ExportUid: 9980492e-bd79-46d4-b8d3-59a01d29e862
+  ComponentUid: b492fe57-02d1-4c4b-808c-5daabd1c8802
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
