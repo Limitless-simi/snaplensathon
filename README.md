@@ -28,3 +28,5 @@ Next, we plan to expand the interactivity, letting users tap on Bitmojis to trig
 
 https://github.com/user-attachments/assets/18ea876b-d4a9-4c63-b3d9-cb2fcbfa5d29
 
+https://github.com/user-attachments/assets/85fe226a-88e7-4664-8c1b-509d9cb5c8b1
+
