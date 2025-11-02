@@ -1,30 +1,27 @@
-**Inspiration**
-BitBond was inspired by the idea of creating a sandbox-like space where people could connect and play, almost like stepping into a game. I wanted to explore how AR could make digital friendships feel more real and give people a way to experience their social bonds in a new, interactive way.
+Inspiration
 
-**What it does**
+Detty December Connect was born from a simple observation: African celebrations have never been solo affairs. From village gatherings to modern street parties, our greatest moments happen when we move together. Yet scrolling through last year’s Detty December, I saw thousands of individual posts, dances, and expressions of joy—where was the “we”? I wanted to create an AR experience where African heritage was not just decoration, but the foundation of gameplay. The theme of connection resonated deeply because our continent has always understood this truth. From the proverb “when spider webs unite, they can tie up a lion” to Ubuntu philosophy, connection is our superpower. My goal was to make cultural wisdom feel alive and shared for Gen Z through AR.
 
-BitBond spawns multiple Bitmojis in a shared AR space to represent friends and connections. It also integrates live weather data so that each Bitmoji reflects the current weather in their city. This adds a tangible, real-world element that makes the experience more dynamic and gives people something practical to connect over.
+What it does
 
-**How we built it**
+Detty December Connect transforms African philosophy into multiplayer gameplay using advanced hand-tracking. Players begin with “Ubuntu Awakening,” an immersive prologue where iconic African landmarks such as the FESTAC mask, the Great Pyramids, the Great Zimbabwe Bird, and Ethiopian artifacts materialize and pulse with light. Text and visual cues reveal Africa’s heritage of unity, establishing the emotional foundation for gameplay. Then, two players simultaneously hand-track to collect cultural crystals spawning in a shared AR space. Players earn bonuses by coordinating movements and synchronizing timing. The crystals respond with authentic African drum sounds and vibrant particle effects when collected, creating emergent moments of genuine connection: players develop hand signals, laugh when they collide, and physically experience Ubuntu philosophy. In this game, you don’t just read “we are stronger together,” you prove it.
 
-We used Snap’s Lens Studio to integrate Bitmojis and AR effects. Weather data was pulled from an API and mapped to visual effects for each Bitmoji. We focused on creating interactions that felt fun while ensuring multiple Bitmojis could appear in the scene without performance issues.
+How we built it
 
-**Challenges we ran into**
+The game was built in Lens Studio using custom JavaScript for hand-tracking and game state management. Dual ObjectTracking3D components support independent hand detection for two players, while rotation-locked transforms ensure that visual indicators follow hand position in 3D space without jarring spins. Euler angles were converted to quaternions, and world rotation locks are applied every frame. The spawning system manages crystal lifecycles, including generation, physics, collision detection, and destruction, with progressive difficulty increasing spawn frequency based on collected crystals. “Ubuntu Awakening” combines Lens Studio’s timeline with scripted triggers, optimized 3D landmark models, emissive materials, and choreographed animations that sync with UI text. Performance optimization was critical: object pooling, particle limits, LOD techniques, spatial partitioning for collision detection, and cached transform references ensured smooth gameplay at 30+ fps. Authentic African drum samples were integrated with spatial sound to make interactions feel tactile and culturally grounded.
 
-Managing multiple Bitmojis in real time was technically demanding, especially when combining AR placement and live weather effects. Working under a tight time frame meant we had to simplify some interactions while keeping the experience meaningful and fun.
+Challenges we ran into
 
-**Accomplishments that we're proud of**
-We successfully created a shared AR space where friends can see their connections come to life. Adding weather effects gave the lens a tangible element that makes the experience more practical and engaging. We built something playful, interactive, and visually appealing within a short time frame.
+Several challenges arose during development. Implementing a persistent leaderboard using Connected Lenses API caused frame rates to drop below 15 fps and created race conditions with scoring logic. Despite exploring async callbacks, throttled API calls, and isolated scripts, no approach preserved performance without compromising gameplay. Cutting the leaderboard was difficult but necessary to maintain the experience’s core: immediate, physical connection between two people in the same space. Hand-tracking precision was also challenging; raw data is noisy, with micro-movements, occlusions, and varying hand sizes. I implemented smoothing algorithms, balancing lag and jitter to achieve reliable detection. Early iterations overloaded players with cultural text and landmark animations, but playtesting revealed that seamless integration, not exposition, drives engagement. The final version allows players to absorb heritage through atmosphere, sound, and visual design rather than reading paragraphs.
 
-**What we learned**
+Accomplishments that we’re proud of
 
-We learned how to combine creative design with technical implementation, including integrating Bitmojis and API data in Lens Studio. We also gained experience in optimizing AR scenes for performance while maintaining user engagement and interactivity.
+The accomplishments I am proud of are numerous. Technically, the dual hand-tracking system is stable and intuitive, allowing even grandparents and kids to play without instruction. Culturally, African heritage forms the foundation of gameplay rather than acting as decoration. Cutting the leaderboard was a mature design decision, prioritizing experience over feature bloat. The gameplay facilitates unscripted human moments: strangers develop hand signals, siblings laugh when accidentally colliding, and couples fall into rhythm naturally. Gen Z experiences African culture not as static posts or documentaries, but as interactive, immediate, and joyful engagement. Players embody Ubuntu rather than simply learning about it, proving cultural preservation can be dynamic.
 
-**What's next for BitBond**
+What we learned
 
-Next, we plan to expand the interactivity, letting users tap on Bitmojis to trigger animations or messages. We also hope to explore a multiplayer version where friends can join in real time from different locations and see each other’s weather effects live.
+The project also offered profound lessons. I gained technical mastery of Lens Studio’s hand-tracking APIs, quaternion mathematics for rotation control, and mobile AR optimization. Cultural design requires research, restraint, and accessibility; I consulted friends across Nigeria, Ghana, Kenya, and South Africa to ensure authenticity. Constraints, such as removing the leaderboard, often improve design, highlighting what truly matters. Detty December Connect demonstrates that digital connection is most meaningful when it enhances real-world interaction, allowing coordinated action and shared physical presence.
 
-https://github.com/user-attachments/assets/18ea876b-d4a9-4c63-b3d9-cb2fcbfa5d29
+What’s next for Detty December Connect
 
-https://github.com/user-attachments/assets/85fe226a-88e7-4664-8c1b-509d9cb5c8b1
-
+Looking forward, I plan to implement global scoring through updated architecture, expand cultural content to represent North, East, South, and Central Africa, and create a slower “Heritage Mode” for educational exploration. Accessibility features such as voice-activated collection, head-gaze tracking, single-hand mode, and adjustable spawn heights will make the experience more inclusive. Future iterations could extend the concept to other cultural festivals, showing that AR can preserve and celebrate living traditions. Ultimately, Detty December Connect serves as proof of concept for “Heritage AR,” a genre where cultural preservation is interactive, relevant, and joyful, enhancing real-world connection while honoring African roots.
